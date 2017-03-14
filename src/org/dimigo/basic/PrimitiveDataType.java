@@ -1,7 +1,7 @@
 package org.dimigo.basic;
 
 /**
- * Created by seungsunoh on 2017. 3. 9..
+ * Created by seungsunoh on 2017. 3. 14..
  */
 public class PrimitiveDataType {
     public static void main(String[] args) {
