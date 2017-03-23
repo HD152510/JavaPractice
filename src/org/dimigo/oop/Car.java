@@ -1,4 +1,4 @@
-package org.dimigo.basic;
+package org.dimigo.oop;
 
 /**
  * Created by seungsunoh on 2017. 3. 23..

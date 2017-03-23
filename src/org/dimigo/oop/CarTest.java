@@ -1,4 +1,6 @@
-package org.dimigo.basic;
+package org.dimigo.oop;
+
+import org.dimigo.oop.Car;
 
 /**
  * Created by seungsunoh on 2017. 3. 23..
