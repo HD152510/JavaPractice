@@ -4,7 +4,7 @@ package org.dimigo.inheritance;
  * Created by seungsunoh on 2017. 5. 8..
  */
 public class PersonTest {
-    public static void main(){
+    public static void main(String[] args){
         Person p=new Person("Tom");
         Korean k=new Korean("홍길동");
         Japanese j=new Japanese("다나카");
