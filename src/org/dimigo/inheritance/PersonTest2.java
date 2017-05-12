@@ -11,8 +11,8 @@ public class PersonTest2 {
                 new Japanese("다나카"),
                 new Chinese("왕밍")
         };
-        for(int i=0;i<persons.length;i++){
-            greeting(persons[i]);
+        for(Person p : persons){
+            greeting(p);
         }
     }
     private static void greeting(Person p){
