@@ -1,9 +1,10 @@
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
+
 
 /**
  * Created by seungsunoh on 2017. 5. 12..
  */
-public class SmartPhone{
+public abstract class SmartPhone {
     private String model;
     private String company;
     private int price;
@@ -21,12 +22,13 @@ public class SmartPhone{
     public void turnOff(){
         System.out.println(model + "의 전원을 끕니다.");
     }
-    public void pay(){}
-    public void useSpecialFunction(SmartPhone phone) {
-        if (phone instanceof IPhone) {
-            ((IPhone) phone).useAirDrop();
-        } else if (phone instanceof Galaxy) {
-            Galaxy g = (Galaxy) phone;
+    public abstract void pay();
+    public void useSpecialFunction() {
+        if (this instanceof IPhone) {
+            ((IPhone) this).useAirDrop();
+        }
+        else if (this instanceof Galaxy) {
+            Galaxy g = (Galaxy) this;
             g.useWirelessCharging();
         }
     }
